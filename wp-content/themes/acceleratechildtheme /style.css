@@ -1,0 +1,192 @@
+/* 
+Theme Name:		 Accelerate Child Theme
+Theme URI:		 http://www.websitebundles.com/
+Description:	 Theme by Site <a href=\"http://childthemegenerator.com/\">http://childthemegenerator.com/</a>
+Author:			 WebsiteBundles
+Author URI:		 http://childthemegenerator.com/
+Template:		 accelerate
+Version:		 1.0.0
+Text Domain:	 Accelerate-child
+-------------------------------------------------------------- */ 
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Galdeano');
+
+body {
+
+    font-family: 'Comfortaa', cursive;
+    width: 100% !important;
+    overflow: hidden  !important;
+    font-size: 10px;
+}
+
+.entry-meta{
+    display: none !important;
+}
+.subtitle{
+    font-size: 40px !important;
+    color: #990000 !important;
+    width: 40% !important;
+    margin: auto !important;
+
+}
+
+
+
+#page {
+    background-image: url('http://kojeje.fr/ape/wp-content/uploads/2020/01/alpha.png') !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 0;
+
+}
+#header-text-nav-container,
+#masthead,.clearfix{
+    background-color: none !important;
+    background: none !important;
+}
+.tribe-list-widget li,
+.square-link
+ {
+    background : #990000 !important;
+    border-radius: 10px !important;
+    padding: 30px !important;
+    color: #ffffff !important;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4) !important;
+
+}
+.square-link{
+    margin-top: 20px !important;
+    font-size: 15px !important;
+}
+.square-link:hover{
+    color: yellow !important;
+    background-color: midnightblue !important;
+
+}
+.tribe-list-widget a{
+   color: #ffffff !important;
+   transition: 0.3s !important;
+   text-decoration: none !important;
+}
+
+#mega-menu-wrap-primary,
+   #mega-menu-wrap-primary #mega-menu-primary>   ul.mega-sub-menu {
+         background: #990000 !important;
+         color: white !important;
+    }
+.tribe-event-time{
+    display: none !important;
+}
+.bloc-bleu,
+.bloc-bleu input{
+    color: #ffb630 !important;
+    background-color: blue !important;
+    padding: 40px !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    width: 80% !important;  
+    border-radius: 20px !important;
+    margin: auto !important;
+}
+
+.faq-list a:hover{
+    border-top:none !important;
+    color: inherit !important;
+}
+.faq-list:hover{
+    background-color: midnightblue !important;
+}
+.entry-content{
+    padding: 30px !important;
+    background-color: white !important;
+    border-bottom: 3px solid #990000 !important;
+    border-left: 3px solid #990000 !important;
+    transition: 0.3s !important;
+
+}
+.entry-content a{
+    transition: 0.6s !important;
+}
+.entry-content a:hover{
+    color: inherit !important;
+    border-top: 3px solid blue !important;
+    font-size: 101% !important;
+    
+}
+#content{
+    /* list-style-type: circle !important; */
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    color: #000000 !important;
+    
+    border-radius: 10px !important;
+    
+    
+}
+
+.faq-list img{
+    width: 100% !important;
+}
+.faq-list {
+    transition: 0.6s !important;
+    display: block !important;
+    width: 100% !important;
+    height: 20vh !important;
+    color: white !important;
+    padding: 30px !important;
+    font-weight: bolder !important;
+    background-color: #990000 !important;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4) !important;
+   
+}
+/* .faq-list img{
+    max-height: 15vh !important;
+} */
+.faq-list p{
+    font-size: 200% !important;
+    border-radius: 10px;
+    
+}
+.faq-list:hover p{
+    color: yellow !important;
+}
+.form-article {
+    background-color: #27313D !important;
+    padding: 40px !important;
+    color: white !important;
+    border-radius: 10px !important;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4) !important;
+}
+.form-article h2{
+    color: #999999 !important;
+
+}
+a:hover {
+
+    border-top: 3px solid aqua;
+    font-size: 101%;
+
+}
+.text-bloc-content{
+    margin-top: 50px !important;
+}
+.text-content{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4) !important;
+    border-radius: 10px !important;
+
+}
+.button_trigger_1:active{
+    background-color: blue !important;
+    color:white !important;
+        border: 2px solid white !important;
+}
+@media only screen and (min-width: 601px)  {
+    
+    .mega-sub-menu{
+        background-color: #990000 !important;
+    }
+   
+}
